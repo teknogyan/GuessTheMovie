@@ -23,7 +23,7 @@ public class NewGame {
     }
     // returns an Integer ArrayList with locations in the movie string of the character entered by the user.
     public ArrayList<Integer> whereCharacters(char input) {
-        ArrayList <Integer> charLocations =new ArrayList<>();
+        ArrayList<Integer> charLocations =new ArrayList<>();
         int currIndex=0;
         for (int i = 0; i < movieLength; i++) {
             if (input==movieName.charAt(i)) {
